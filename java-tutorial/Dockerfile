@@ -10,7 +10,7 @@ WORKDIR /usr/app
 
 RUN pwd
 # copy the jar file
-COPY ./bazel-bin/src/main/java/com/example/cmdline/runner_deploy.jar .
+COPY .java-tutorial/bazel-bin/src/main/java/com/example/cmdline/runner_deploy.jar .
 
 RUN ls -hl
 
